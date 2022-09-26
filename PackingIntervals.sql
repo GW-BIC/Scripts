@@ -4,6 +4,8 @@ I recommend trying this out first with a single patient to see if it has the des
 To change the "grace period" between windows change the number within the DATEADD function
 To remove the grace period and only combine in cases of overlap, remove the DATEADD function and just use FillDateTime or whatever
 it is you are calling your Start DateTime
+
+Credit:T-SQL Window Functions: For data analysis and beyond 2nd Edition by Itzik Ben-Gan
 */
 
 WITH C1 as (
